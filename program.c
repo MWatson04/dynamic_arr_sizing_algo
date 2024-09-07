@@ -3,7 +3,6 @@
 
 struct Test {
 	int *a;
-	int width;	
 };
 
 void changeArr(struct Test *t1) {
@@ -19,7 +18,6 @@ int main() {
 
 	struct Test t;
 	t.a = (int *)malloc(initial_size * sizeof(int));
-	t.width = 5;
 	
 	for (int i = 0; i < 22; i++) {
 		t.a[i] = i + 1;
