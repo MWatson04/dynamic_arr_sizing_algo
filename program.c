@@ -6,12 +6,10 @@ struct Test {
 	int width;	
 };
 
-int * changeArr(struct Test *t1) {
+void changeArr(struct Test *t1) {
 	for (int i = 0; i < 22; i++) {
 		t1->a[i]++;
 	}
-
-	return t1->a;
 }
 
 int main() {
