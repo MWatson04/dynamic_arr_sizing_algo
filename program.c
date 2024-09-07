@@ -30,8 +30,8 @@ int main() {
 		length++;
 
 		if (length == current_size) {
-				current_size *= 2;
-				t.a = (int*)realloc(t.a, current_size * sizeof(int));
+			current_size *= 2;
+			t.a = (int*)realloc(t.a, current_size * sizeof(int));
 		} 
 	}
 
