@@ -23,7 +23,7 @@ int main() {
 	
 	for (int i = 0; i < 22; i++) {
 		t.a[i] = i + 1;
-		printf("The current area %d\n", t.a[i]);
+		printf("%d\n", t.a[i]);
 
 		length++;
 
@@ -36,7 +36,7 @@ int main() {
 	changeArr(&t);
 
 	for (int i = 0; i < 22; i++) {
-		printf("The current area %d\n", t.a[i]);
+		printf("%d\n", t.a[i]);
 	}
 
 	free(t.a);
